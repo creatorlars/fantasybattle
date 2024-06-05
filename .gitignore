@@ -1,0 +1,6 @@
+.metadata
+.settings
+build
+.vscode
+SDK.log
+RemoteSystemsTempFiles/*

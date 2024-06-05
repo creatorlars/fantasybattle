@@ -1,0 +1,12 @@
+[submodule "external/etl"]
+	path = external/etl
+	url = https://github.com/ETLCPP/etl
+[submodule "external/lzxemb"]
+	path = external/lzxemb
+	url = https://github.com/lzxindustries/lzxemb
+[submodule "external/nlohmann-json"]
+	path = external/nlohmann-json
+	url = https://github.com/nlohmann/json
+[submodule "external/ffmpeg"]
+	path = external/ffmpeg
+	url = https://git.ffmpeg.org/ffmpeg.git
