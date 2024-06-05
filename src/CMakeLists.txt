@@ -8,7 +8,7 @@ find_package(SFML 2.6 COMPONENTS system window graphics network audio REQUIRED)
 
 add_executable(simulator
 	main.cpp
-	application.cpp
+	# application.cpp
 	# ${PROJECT_SOURCE_DIR}/external/lzxemb/src/lzx/sfml/sfml_clock.cpp
 	# ${PROJECT_SOURCE_DIR}/external/lzxemb/src/lzx/sfml/sfml_sleep.cpp
 	# ${PROJECT_SOURCE_DIR}/external/lzxemb/src/lzx/sfml/sfml_render_window.cpp
