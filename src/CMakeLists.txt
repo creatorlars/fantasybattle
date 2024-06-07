@@ -26,13 +26,14 @@ target_include_directories(simulator
 		PRIVATE
 		${PROJECT_SOURCE_DIR}/src
 		${PROJECT_SOURCE_DIR}/external/imgui
+		${PROJECT_SOURCE_DIR}/external/entt/include
 		${PROJECT_SOURCE_DIR}/external/imgui-sfml
 		${PROJECT_SOURCE_DIR}/external/nlohmann-json/include
 		# ${PROJECT_SOURCE_DIR}/external/lzxemb/include
 		# ${PROJECT_SOURCE_DIR}/external/lzxemb/src/lzx/std
 		# ${PROJECT_SOURCE_DIR}/external/lzxemb/src/lzx/sfml
 		# ${PROJECT_SOURCE_DIR}/external/lzxemb/third_party/ArduinoJson
-		${PROJECT_SOURCE_DIR}/external/etl/include
+		# ${PROJECT_SOURCE_DIR}/external/etl/include
 		# ${PROJECT_SOURCE_DIR}/library/software/ui
 		${PROJECT_SOURCE_DIR}/external/sfml/include)
 
