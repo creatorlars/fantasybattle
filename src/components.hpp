@@ -1,36 +1,63 @@
 #pragma once
 
+#include <entt/entt.hpp>
+
 namespace fantasybattle
 {
-  struct profile
-  {
-    double movement{4.0};
-    int weapon_skill{3};
-    int ballistic_skill{3};
-    int strength{3};
-    int toughness{3};
-    int wounds{1};
-    int leadership{6};
-  };
 
   enum class armour_type
   {
+    none,
     light,
-    heavy
+    heavy,
+    light_with_shield,
+    heavy_with_shield
   };
 
-  struct armour
+  struct model
   {
-    armour_type type{armour_type::light};
+    entt::entity unit;
+    entt::entity player;
+    bool is_character_model;
+    int base_front_mm;
+    int base_side_mm;
   };
 
-  struct shield
+  struct character_profile
   {
+    int level;
+  };
+
+  struct unit_profile
+  {
+    double movement;
+    int weapon_skill;
+    int ballistic_skill;
+    int strength;
+    int toughness;
+    int wounds;
+    int initiative;
+    int attacks;
+    int leadership;
+    int max_leadership_bonus;
+    int intelligence;
+    int cool;
+    int willpower;
+    armour_type armour;
   };
 
   struct unit
   {
-    
+    int ranks;
+    int files;
+    entt::entity player;
+    std::vector<entt::entity> models;
+  };
+
+  struct player
+  {
+    std::vector<entt::entity> units;
+    std::vector<entt::entity> characters;
   };
 
 }

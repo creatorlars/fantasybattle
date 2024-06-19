@@ -8,6 +8,10 @@ namespace fantasybattle
 {
   using namespace entt::literals;
 
+  DEFINE_TAG(is_character_model);
+  DEFINE_TAG(is_unit_champion);
+  DEFINE_TAG(is_unit_musician);
+  DEFINE_TAG(is_unit_standard_bearer);
   DEFINE_TAG(is_large_target);
   DEFINE_TAG(is_small_target);
   DEFINE_TAG(is_charging);

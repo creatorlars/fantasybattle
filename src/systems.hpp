@@ -7,7 +7,7 @@
 namespace fantasybattle
 {
 
-  inline std::optional<int> minimum_to_wound(const profile &attacker, const profile &defender)
+  inline std::optional<int> minimum_to_wound(const unit_profile &attacker, const unit_profile &defender)
   {
     const int result = std::max(2, 4 + defender.toughness - attacker.strength);
 
@@ -19,7 +19,7 @@ namespace fantasybattle
     return {};
   }
 
-  inline std::optional<int> minimum_to_hit_combat(const profile &attacker, const profile &defender)
+  inline std::optional<int> minimum_to_hit_combat(const unit_profile &attacker, const unit_profile &defender)
   {
     const int result = std::max(2, 5 + ((defender.weapon_skill - attacker.weapon_skill) / 2));
     
@@ -31,7 +31,7 @@ namespace fantasybattle
     return {};
   }
 
-  inline std::optional<int> minimum_to_hit_shooting(const profile &attacker)
+  inline std::optional<int> minimum_to_hit_shooting(const unit_profile &attacker)
   {
     if (attacker.ballistic_skill >= 1)
     {
