@@ -1,0 +1,21 @@
+{
+  "quantity": 6,
+  "name": "HONOR GUARD",
+  "stats": {
+    "M": 3,
+    "WS": 4,
+    "BS": 3,
+    "S": 3,
+    "T": 3,
+    "W": 1,
+    "I": 4,
+    "A": 1,
+    "Ld": 7,
+    "Int": 7,
+    "Cl": 7,
+    "WP": 7
+  },
+  "weapons": "Hand Weapons",
+  "armor": "Heavy + Shield (Save 4+)",
+  "special": "Hand Weapons provide no special benefit."
+}

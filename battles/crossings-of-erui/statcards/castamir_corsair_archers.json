@@ -1,0 +1,21 @@
+{
+  "quantity": 15,
+  "name": "CORSAIR ARCHERS",
+  "stats": {
+    "M": 4,
+    "WS": 3,
+    "BS": 3,
+    "S": 3,
+    "T": 3,
+    "W": 1,
+    "I": 3,
+    "A": 1,
+    "Ld": 7,
+    "Int": 7,
+    "Cl": 7,
+    "WP": 7
+  },
+  "weapons": "Bows (24\")",
+  "armor": "Light (Save 6+)",
+  "special": "Bows (24\") fire at S3."
+}

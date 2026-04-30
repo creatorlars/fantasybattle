@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StatCard",
+  "type": "object",
+  "required": ["name", "stats"],
+  "additionalProperties": false,
+  "properties": {
+    "quantity": {
+      "type": ["integer", "string"]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stats": {
+      "type": "object",
+      "required": ["M", "WS", "BS", "S", "T", "W", "I", "A", "Ld", "Int", "Cl", "WP"],
+      "additionalProperties": false,
+      "properties": {
+        "M":   { "type": ["integer", "number", "string"] },
+        "WS":  { "type": ["integer", "number", "string"] },
+        "BS":  { "type": ["integer", "number", "string"] },
+        "S":   { "type": ["integer", "number", "string"] },
+        "T":   { "type": ["integer", "number", "string"] },
+        "W":   { "type": ["integer", "number", "string"] },
+        "I":   { "type": ["integer", "number", "string"] },
+        "A":   { "type": ["integer", "number", "string"] },
+        "Ld":  { "type": ["integer", "number", "string"] },
+        "Int": { "type": ["integer", "number", "string"] },
+        "Cl":  { "type": ["integer", "number", "string"] },
+        "WP":  { "type": ["integer", "number", "string"] }
+      }
+    },
+    "weapons":    { "type": "string" },
+    "armor":      { "type": "string" },
+    "psychology": { "type": "string" },
+    "special":    { "type": "string" }
+  }
+}

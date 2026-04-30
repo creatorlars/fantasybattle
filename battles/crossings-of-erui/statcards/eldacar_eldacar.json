@@ -1,0 +1,21 @@
+{
+  "quantity": 1,
+  "name": "ELDACAR",
+  "stats": {
+    "M": 3.5,
+    "WS": 6,
+    "BS": 5,
+    "S": 4,
+    "T": 4,
+    "W": 4,
+    "I": 6,
+    "A": 4,
+    "Ld": "10+3",
+    "Int": "9+2",
+    "Cl": "9+2",
+    "WP": "9+2"
+  },
+  "weapons": "Hand Weapon",
+  "armor": "Light + Shield (Save 5+)",
+  "special": "Hand Weapons provide no special benefit."
+}
