@@ -1,0 +1,9 @@
+{
+  "name": "XOCHI, WIZARD LEVEL 20",
+  "stats": {
+    "M": 4, "WS": 5, "BS": 3, "S": 4, "T": 5, "W": 4,
+    "I": 5, "A": 1, "Ld": "10+2", "Int": "10+3", "Cl": "10+2", "WP": "10+3"
+  },
+  "weapons": "Hand Weapon",
+  "armor": "Light Armour (Save 6+)"
+}

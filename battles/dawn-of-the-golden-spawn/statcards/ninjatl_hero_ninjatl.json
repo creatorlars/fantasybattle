@@ -1,0 +1,9 @@
+{
+  "name": "NINJATL, HERO LEVEL 10",
+  "stats": {
+    "M": 4, "WS": 5, "BS": 3, "S": 4, "T": 5, "W": 2,
+    "I": 4, "A": 3, "Ld": "9+1", "Int": 7, "Cl": 9, "WP": 9
+  },
+  "weapons": "Hand Weapon & Blowpipe",
+  "armor": "Light Armour & Shield (Save 5+)"
+}

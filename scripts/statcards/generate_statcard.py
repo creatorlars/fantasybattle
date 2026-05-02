@@ -62,10 +62,12 @@ TITLE_BG    = (0, 0, 0)
 TITLE_FG    = (255, 255, 255)
 
 DETAIL_FIELDS = [
-    ("weapons",    "WEAPONS:"),
-    ("armor",      "ARMOR:"),
-    ("psychology", "PSYCHOLOGY:"),
-    ("special",    "SPECIAL:"),
+    ("weapons",         "WEAPONS:"),
+    ("armor",           "ARMOR:"),
+    ("psychology",      "PSYCHOLOGY:"),
+    ("special",         "SPECIAL:"),
+    ("musician",        "MUSICIAN:"),
+    ("standard_bearer", "STANDARD BEARER:"),
 ]
 
 
@@ -203,6 +205,10 @@ def _basic_validate(data: dict, schema: dict | None) -> None:
     for opt in ("weapons", "armor", "psychology", "special"):
         if opt in data and not isinstance(data[opt], str):
             raise ValueError(f"Optional field {opt!r} must be a string")
+    for opt in ("musician", "standard_bearer"):
+        if opt in data:
+            if not isinstance(data[opt], str) or data[opt] not in ("Yes", "No"):
+                raise ValueError(f"Optional field {opt!r} must be 'Yes' or 'No'")
 
 
 # ---------------------------------------------------------------------------

@@ -33,12 +33,15 @@ python generate_statcard.py samples/cold_one_mount.json -o cold_one_mount.png
     "M": 8, "WS": 3, "BS": 0, "S": 4, "T": 4, "W": 2,
     "I": 1, "A": 2, "Ld": 2, "Int": 4, "Cl": 9, "WP": 9
   },
-  "weapons":    "Claws (-2 to enemy saves)",  // optional
-  "armor":      "None",                       // optional
-  "psychology": "Fear, stupidity",            // optional
-  "special":    "Slow charge, stinky"         // optional
+  "weapons":         "Claws (-2 to enemy saves)",  // optional
+  "armor":           "None",                       // optional
+  "psychology":      "Fear, stupidity",            // optional
+  "special":         "Slow charge, stinky",        // optional
+  "musician":        "Yes",                        // optional, "Yes" or "No"
+  "standard_bearer": "No"                          // optional, "Yes" or "No"
 }
 ```
 
-The four detail rows (`weapons`, `armor`, `psychology`, `special`) are each
-optional and are only rendered when present.
+The detail rows (`weapons`, `armor`, `psychology`, `special`, `musician`,
+`standard_bearer`) are each optional and are only rendered when present.
+`musician` and `standard_bearer` must be either `"Yes"` or `"No"`.

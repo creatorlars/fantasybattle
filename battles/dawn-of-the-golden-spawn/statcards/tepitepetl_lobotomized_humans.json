@@ -1,0 +1,13 @@
+{
+  "quantity": 18,
+  "name": "LOBOTOMIZED HUMANS",
+  "stats": {
+    "M": 4, "WS": 3, "BS": 3, "S": 3, "T": 3, "W": 1,
+    "I": 3, "A": 1, "Ld": 7, "Int": 2, "Cl": 7, "WP": 7
+  },
+  "weapons": "Hand Weapon",
+  "armor": "Shield (Save 6+)",
+  "psychology": "Stupidity, requires hero in unit",
+  "musician": "Yes",
+  "standard_bearer": "Yes"
+}

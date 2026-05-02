@@ -31,9 +31,11 @@
         "WP":  { "type": ["integer", "number", "string"] }
       }
     },
-    "weapons":    { "type": "string" },
-    "armor":      { "type": "string" },
-    "psychology": { "type": "string" },
-    "special":    { "type": "string" }
+    "weapons":         { "type": "string" },
+    "armor":           { "type": "string" },
+    "psychology":      { "type": "string" },
+    "special":         { "type": "string" },
+    "musician":        { "type": "string", "enum": ["Yes", "No"] },
+    "standard_bearer": { "type": "string", "enum": ["Yes", "No"] }
   }
 }

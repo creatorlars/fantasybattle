@@ -1,0 +1,9 @@
+{
+  "name": "KOZMOX, HERO LEVEL 20",
+  "stats": {
+    "M": 4, "WS": 6, "BS": 3, "S": 4, "T": 5, "W": 4,
+    "I": 6, "A": 4, "Ld": "10+3", "Int": 7, "Cl": "10+1", "WP": "10+1"
+  },
+  "weapons": "Hand Weapon",
+  "armor": "Light Armour & Shield (Save 5+)"
+}
